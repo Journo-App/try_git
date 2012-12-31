@@ -1,6 +1,6 @@
 READ ME
 This is where I do all my experimenting as Github and I get fully acquainted 
-1. Create repo in GitHub that mirrors your local repo (i.e. folder), like, for this purpose: try_git 
+I. 1. Create repo in GitHub that mirrors your local repo (i.e. folder), like, for this purpose: try_git 
 2. go to the terminal and type: 
 mkdir ~/try_git
 cd ~/try_git 
@@ -16,6 +16,15 @@ git remote add origin https://github.com/username/reponame.git (which would look
 7. Then push the changes to Github: 
 git push -u origin master 
 
-To push an existing local repo to Github repo: 
+II. To push an existing local repo to Github repo: 
 git remote add origin https://github.com/username/reponame.git 
 git push -u origin master 
+
+III. To make changes to an existing file on the local repo and push to Github: 
+Pull changes if necessary first 
+1. Open the file (in this example it's called README) and make the changes. Save and close 
+2. git add README
+3. git commit -m "the text you want to show up under your commit message that tells others what you've done" 
+4. git push -u origin master
+Username: 
+Password: 
