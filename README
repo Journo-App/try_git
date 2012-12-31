@@ -31,7 +31,12 @@ Pull changes if necessary first: git pull origin master
 4. git push -u origin master
 Username: 
 Password: 
-
+ 
+IV. You can also edit a file from Github by clicking the Edit tab on the file page. 
+Then you have to pull down the changes to your remotely kept file to make sure they're in sync: 
+1. make changes in the code and click the Commit Changes button at the bottom of the Github page
+go into your terminal and type: 
+2. git pull origin master
 
 ? Alternative method: You have created a new repo -- test.git in this example -- in Github and have a local one too: 
 1. touch README.md (***I am not sure why github's instructions put the .md at the end and other tutorials don't ***) 
